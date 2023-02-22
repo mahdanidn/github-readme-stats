@@ -101,7 +101,9 @@ Copy-paste this into your markdown content, and that is it. Simple!
 
 Change the `?username=` value to your GitHub username.
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=mahdanidn)](https://github.com/anuraghazra/github-readme-stats)
+```md
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+```
 
 > **Note**
 > Available ranks are S+ (top 1%), S (top 25%), A++ (top 45%), A+ (top 60%), and B+ (everyone). The values are calculated by using the [cumulative distribution function](https://en.wikipedia.org/wiki/Cumulative_distribution_function) using commits, contributions, issues, stars, pull requests, followers, and owned repositories. The implementation can be investigated at [src/calculateRank.js](./src/calculateRank.js).
